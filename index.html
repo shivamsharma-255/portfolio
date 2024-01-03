@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/6e663fd5ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificate">Certificates</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Shivam</span><br> From Hyderabad</h1>
+            </div>
+        </div>
+     </div>
+     <!-- about-->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a hardworking student seeking employment to pursue my career in an organization with a performance-
+                        oriented environment to achieve personal advancement. Being ambitious and hardworking, I look forward to
+                        challenging my potential and being worthy of management's trust and confidence, strong work ethic, and
+                        willingness to take on new responsibilities to contribute to the success of the company.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br>The development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website.</li>
+                            <li><span>Time Management</span><br>Good time management enables an individual to complete more in a shorter period of time, lowers stress, and leads to career success.</li>
+                            <li><span>Problem Solving</span><br>it is the deciding the best course of action in order to solve the problem, and then finally implementing it to solve the problem.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Virtual Cybersecurity Internship</span><br>PaloAlto</li>
+                            <li><span>Cybersecurity Engineering Virtual Internship Program</span><br>SAP</li>
+                            <li><span>Content Writing</span><br>Growth Leaper</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020-2024</span><br>CMR Engineering College</li>
+                            <li><span>2018-2020</span><br>Narayana Junior College</li>
+                            <li><span>2018</span><br>Navodaya High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- projects -->
+     <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My projects</h1>
+            <div class="projects-list">
+                  <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Adversarial Anomaly Detection</h2>
+                    <p>Detects the type (malicious/defacement) of the link using the algorithms of Machine Learning and Recurrent Neural Network Algorithm - Gated Recurrent Unit</p>
+                    <a href="#">Learn More</a>
+                  </div>
+                  <div>
+                    <i class="fa-regular fa-file"></i>
+                    <h2>Malware Detection</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nobis voluptatem labore ratione vel inventore molestiae, temporibus quis modi minus tempore vero eos ut hic rerum consequuntur amet saepe consequatur.</p>
+                    <a href="#">Learn More</a>
+                  </div>
+                  <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Secure Online Academy</h2>
+                    <p>A python project to provide security during online classes by generating the otp Authentication for the legitimate attendees.<br>
+                        Technologies Used: Python, Html<br>
+                        IDE used: VS Code</p>
+                    <a href="#">Learn More</a>
+                  </div>
+            </div>
+        </div>
+     </div>
+     <!---- certificates----->
+     <div id="certificate">
+        <div class="container">
+              <h1 class="sub-title">My Certificates</h1>
+              <div class="certificates-list">
+                <div class="certificate">
+                    <a href="images/cybersecurity virtual internship.pdf" target="_main"><h2>cybersecurity virtual internship</h2></a>   
+                </div>
+                <div class="certificate">
+                    <a href="images/sap virtual internship program.pdf" target="_main"><h2>sap virtual internship program</h2></a>   
+                </div>
+                <div class="certificate">
+                    <a href="images/wiprotalentnext.pdf" target="_main"><h2>Wipro Talentnext</h2></a>   
+                </div>
+                <div class="certificate">
+                    <a href="images/TCSion certificate.pdf" target="_main"><h2>TCSion</h2></a>   
+                </div>
+                <div class="certificate">
+                    <a href="images/Udemy.pdf" target="_main"><h2>Intro to cybersecurity</h2></a>   
+                </div>
+                <div class="certificate">
+                    <a href="images/spokentutroial html.pdf" target="_main"><h2>HTML</h2></a>   
+                </div>
+                <div class="certificate">
+                    <a href="images/problem_solving_intermediate certificate.pdf" target="_main"><h2>Problem solving</h2></a>   
+                </div>
+                <div class="certificate">
+                    <a href="images/sql_intermediate certificate.pdf" target="_main"><h2>SQL</h2></a>   
+                </div>
+              </div>
+     </div>
+     </div>
+     <!-- contact -->
+     <br>
+     <br>
+     <div id="contact">
+       <div class="container">
+         <div class="row">
+               <div class="contact-left">
+                <h1>Contact me</h1>
+                <p><i class="fas fa-paper-plane"></i>shivamsharma110302@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9392480627</p>
+                <div class="socialmedia">
+                    <a href="https://www.linkedin.com/in/shivam-sharma-b97b24217/" target="_main"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/208R1A6255" target="_main"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/Shivam_110302" target="_main"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/shivamsharma3072/" target="_main"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100012285759520" target="_main"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="images/208R1A6255-SHIVAM SHARMA.pdf" class="btn" download>Download CV</a>
+               </div>
+               <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+               </div>
+         </div>
+      </div>
+      <div class="copyright">
+        <p>copyright © Shivam Made with <i class="fa-solid fa-heart"></i> by Shivam Sharma</p>
+      </div>
+     </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxukaj2JjY8NNBxFy4Dtw0LcoFlpkPOfVA4gGtYvqIeOkkL65UAEHq-naudsusLq-GDWA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
